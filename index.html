@@ -1,0 +1,33 @@
+<div class="container">
+    <div class="row wrapper">
+       <p class="mobile">Mobile No</p>
+       <p class="email">Email</p>
+    </div>
+</div>
+<style>
+.wrapper {
+    width:160px;
+    margin:20% auto;
+}
+
+p {
+  border:1px solid #666;
+  padding:12px 25px;
+}
+
+p.email:before,
+p.mobile:before{
+   font-family: FontAwesome;
+   display: inline-block;
+   padding-right: 6px;
+   vertical-align: middle;
+}
+
+p.mobile:before {
+   content: "\f095";
+}
+
+p.email:before {
+   content: "\f003";
+}
+</style>
